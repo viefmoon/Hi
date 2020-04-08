@@ -2,6 +2,7 @@
 
 void setup() {
 Serial.begin(9600);
+digitalWrite(5,HIGH);
 }
 
 void loop() {
